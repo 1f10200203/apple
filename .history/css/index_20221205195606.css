@@ -62,7 +62,7 @@ header .tools {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
-  left: 73%;/*right: 20%*//*headerアイコンの場所を修正*/
+  left: 77%;/*right: 20%*/
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,7 +70,7 @@ header .tools {
       -ms-flex-align: center;
           align-items: center;
   -ms-flex-pack: distribute;
-      /*justify-content: space-around;*//*headerアイコン周辺のスペースを修正*/
+      /*justify-content: space-around;*/
   text-align: center;
 }
 
@@ -80,6 +80,11 @@ header .tools .one {
 
 header .tools .one img {
   width: 85%;
+}
+
+header .tools .one .h4{
+  width: 20%;
+  font-size: 10px;
 }
 
 header .contact {
